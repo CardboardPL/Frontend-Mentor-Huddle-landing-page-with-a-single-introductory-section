@@ -5,7 +5,7 @@
   background-color: var(--color-primary-dark);
   min-height: 100vh;
   width: 100%;
-  padding: 54px 73px 0 73px;
+  padding: 54px 73px 40px 73px;
   overflow: hidden;
 }
 
@@ -19,6 +19,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
+  margin-bottom: 21px;
 }
 
 .hero__illustration {
@@ -61,4 +62,46 @@
 .hero__register-button:focus-within {
   color: hsl(0, 0%, 100%);
   background-color: var(--color-primary-light);
+}
+
+.hero__social-links {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  margin-left: auto;
+}
+
+.hero__social-links-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
+  font-size: 18px;  
+  width: 40px;
+  height: 40px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-left: 16px;
+  cursor: pointer;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.hero__social-links-item:last-child {
+  font-size: 20px;
+}
+
+.hero__social-links-item > a {
+  color: white;
+  transition: color 0.15s ease-in-out;
+}
+
+.hero__social-links-item:hover,
+.hero__social-links-item:focus-within {
+  border-color: var(--color-primary-light);
+}
+
+.hero__social-links-item:hover > a, 
+.hero__social-links-item:focus-within > a {
+  color: var(--color-primary-light);
 }
