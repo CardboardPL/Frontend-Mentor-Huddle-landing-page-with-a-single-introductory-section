@@ -5,13 +5,13 @@
   background-color: var(--color-primary-dark);
   min-height: 100vh;
   width: 100%;
-  padding: 54px 73px 40px 73px;
+  padding: 3.375rem 4.5625rem 2.5rem 4.5625rem;
   overflow: hidden;
 }
 
 .hero__logo {
-  width: 215px;
-  margin-bottom: 86px;
+  width: 13.4375rem;
+  margin-bottom: 5.375rem;
 }
 
 .hero__content {
@@ -19,39 +19,39 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  margin-bottom: 21px;
+  margin-bottom: 1.3125rem;
 }
 
 .hero__illustration {
-  width: 709px;
-  margin-right: 52px;
+  width: 44.3125rem;
+  margin-right: 3.25rem;
 }
 
 .hero__header {
-  font-size: 40px;
-  letter-spacing: -0.2105263157894737px;
+  font-size: 2.5rem;
+  letter-spacing: -0.0131578947368421rem;
   line-height: 1.49;
-  margin-top: 43px;
-  margin-bottom: 20px;
+  margin-top: 2.6875rem;
+  margin-bottom: 1.25rem;
 }
 
 .hero__description {
-  font-size: 18px;
+  font-size: 1.125rem;
   max-width: 98%;
-  margin-bottom: 25px;
+  margin-bottom: 1.5625rem;
 }
 
 .hero__register-button {
   font-family: inherit;
-  font-size: 18px;
-  letter-spacing: 0.5px;
+  font-size: 1.125rem;
+  letter-spacing: 0.03125rem;
   color: var(--color-primary-dark);
   background-color: hsl(0, 0%, 100%);
-  height: 56px;
-  width: 200px;
-  border-radius: 100px;
+  height: 3.5rem;
+  width: 12.5rem;
+  border-radius: 6.25rem;
   border: none;
-  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.5);
+  box-shadow: 0.25rem 0.25rem 0.9375rem rgba(0, 0, 0, 0.5);
   cursor: pointer;
   transition: 
     color 0.2s ease-in-out,
@@ -77,18 +77,18 @@
   justify-content: center;
   align-items: center;
   line-height: 1;
-  font-size: 18px;  
-  width: 40px;
-  height: 40px;
-  border: 1px solid white;
+  font-size: 1.125rem;  
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 0.0625rem solid white;
   border-radius: 50%;
-  margin-left: 16px;
+  margin-left: 1rem;
   cursor: pointer;
   transition: background-color 0.15s ease-in-out;
 }
 
 .hero__social-links-item:last-child {
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .hero__social-links-item > a {
