@@ -111,9 +111,17 @@
   .hero__illustration {
     width: 40rem;
   }
+
+  .hero__description {
+    max-width: none;
+  }
 }
 
 @media (max-width: 1320px) {
+  .hero {
+    background-size: cover;
+  }
+
   .hero__content {
     align-items: center;
   }
@@ -125,8 +133,6 @@
   .hero__header {
     margin-top: 0;
   }
-
-  
 }
 
 @media (max-width: 830px) {
@@ -137,5 +143,9 @@
   .hero__content {
     flex-direction: column;
     text-align: center;
+  }
+
+  .hero__illustration {
+    width: 100%;
   }
 }
