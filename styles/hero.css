@@ -142,16 +142,17 @@
     background-image: url("../images/bg-mobile.svg");
     background-size: contain;
     background-position: top;
-    padding: 32px;
+    padding: 28px 38px 42px 38px;
   }
 
   .hero__logo {
-    width: 155px;
+    width: 132px;
+    margin-bottom: 4rem;
   }
 
   .hero__illustration {
     width: 100%;
-    margin: 0 0 4rem 0;
+    margin: 0 0 3.75rem 0;
   }
 
   .hero__content {
@@ -161,7 +162,6 @@
 
   .hero__header {
     font-size: 1.5rem;
-    margin: 30px auto;
   }
 
   .hero__description {
@@ -170,8 +170,25 @@
   }
 
   .hero__register-button {
-    font-size: 1rem;
-    height: 42px;
-    margin: 1.5rem 0;
+    font-size: 14px;
+    height: 46px;
+    margin: 1.75rem 0 2.5rem 0;
+  }
+
+  .hero__social-links {
+    justify-content: space-between;
+    width: 120px;
+    margin: 0 auto;
+  }
+
+  .hero__social-links-item {
+    font-size: 12px;
+    width: 2rem;
+    height: 2rem;
+    margin: 0;
+  }
+
+  .hero__social-links-item:last-child {
+    font-size: 16px;
   }
 }
