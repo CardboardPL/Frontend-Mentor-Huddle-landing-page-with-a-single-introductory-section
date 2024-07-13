@@ -20,13 +20,18 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  margin-bottom: 1.3125rem;
+  max-width: 1294px;
+  margin: 0 auto 1.3125rem auto;
 }
 
 .hero__illustration {
   display: block;
   width: 44.3125rem;
   margin-right: 3.25rem;
+}
+
+.hero__content > div {
+  max-width: 533px;
 }
 
 .hero__header {
@@ -158,10 +163,12 @@
   .hero__content {
     align-items: center;
     flex-direction: column;
+    margin-bottom: 0;
   }
 
   .hero__header {
     font-size: 1.5rem;
+    margin-bottom: 1rem;
   }
 
   .hero__description {
@@ -170,9 +177,9 @@
   }
 
   .hero__register-button {
-    font-size: 14px;
-    height: 46px;
-    margin: 1.75rem 0 2.5rem 0;
+    font-size: 12px;
+    height: 40px;
+    margin: 1.75rem 0 3.25rem 0;
   }
 
   .hero__social-links {
