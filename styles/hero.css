@@ -1,4 +1,6 @@
 .hero {
+  display: flex;
+  flex-direction: column;
   background-image: url("../images/bg-desktop.svg");
   background-position: left;
   background-size: contain;
@@ -128,7 +130,6 @@
   }
 
   .hero__content {
-    text-align: center;
     align-items: center;
   }
 
@@ -141,12 +142,71 @@
   }
 }
 
-@media (max-width: 830px) {
+@media (max-width: 1245px) {
+  .hero {
+    justify-content: space-between;
+  }
+
+  .hero__illustration {
+    width: 33rem;
+  }
+
+  .hero__header {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .hero__description {
+    font-size: 1.075rem;
+    margin-bottom: 1.125rem;
+  }
+
+  .hero__register-button {
+    font-size: 1.075rem;
+    height: 3rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .hero__content {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+  .hero__illustration {
+    margin: 0 0 3.75rem 0;
+  }
+
+  .hero__description {
+    margin: 0;
+  }
+
+  .hero__register-button {
+    margin: 1.75rem 0 3.25rem 0;
+  }
+}
+
+@media (max-width: 685px) {
+  .hero {
+    padding: 1.75rem 2.375rem 2.625rem 2.375rem;
+  }
+
+  .hero__logo {
+    width: 12rem;
+  }
+
+  .hero__illustration {
+    width: 30rem;
+  }
+}
+
+@media (max-width: 550px) {
   .hero {
     background-image: url("../images/bg-mobile.svg");
     background-size: contain;
     background-position: top;
-    padding: 1.75rem 2.375rem 2.625rem 2.375rem;
   }
 
   .hero__logo {
@@ -156,23 +216,14 @@
 
   .hero__illustration {
     width: 100%;
-    margin: 0 0 3.75rem 0;
-  }
-
-  .hero__content {
-    align-items: center;
-    flex-direction: column;
-    margin-bottom: 0;
   }
 
   .hero__header {
     font-size: 1.5rem;
-    margin-bottom: 1rem;
   }
 
   .hero__description {
     font-size: 1rem;
-    margin: 0 auto;
   }
 
   .hero__register-button {
